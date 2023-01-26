@@ -1,0 +1,75 @@
+<!-- Practical No:- 1 -->
+<!-- Design web pages using HTML that will contain online admission forms. -->
+<html>
+<head>
+    <title>Online Admission Form</title>
+</head>
+<body>
+    <h1>
+        <center>
+            <font size=20 face= "Monotype Corsiva">Online Admission Form</font>
+        </center>
+    </h1>
+    <form action="backend.php">
+        <h1><i><u>Personal Information :- </u></i></h1>
+        <font size=5><b>Student Name : </b></font>
+        <input type="text" size=20 placeholder="First Name">
+        <input type="text" size=20 placeholder="Middle Name">
+        <input type="text" size=20 placeholder="Last Name">
+        <br><br>
+        <font size=5><b>Gender : </b></font>
+        <input type="radio" name="MyGender"><b>Male</b>
+        <input type="radio" name="MyGender"><b>Female</b>
+        <br><br>
+        <font size=5><b>Date of Birth : </b></font><input type="date">
+        <br><br>
+        <hr color="black" size=3>
+        <h1><i><u>Contact Information:</u></i></h1>
+        <font size=5><b>Address : </b></font>
+        <textarea cols-40 rows-3 name="address"></textarea>
+        <br><br>
+        <font size=5><b>Mobile No. : </b></font>
+        <input type="text" size=10 name="mno">
+        <br><br>
+        <font size=5><b>E-Mail ID : </b></font>
+        <input type="text" size 20 name="e-mail id">
+        <br><br>
+        <hr color="black" size=3>
+        <h1><i><u>Admission Information : </u></i></h1> 
+        <font size=5><b>Category : </b></font>
+        <input type="radio" name="category"><b>Open</b>
+        <input type="radio" name="category"><b>OBC</b>
+        <input type="radio" name="category"><b>SC</b> 
+        <input type="radio" name="category"><b>ST</b>
+        <input type="radio" name="category"><b>NT</b> 
+        <input type="radio" name="category"><b>Other</b>
+        <br><br>
+        <font size=5><b>Course Name : </b></font>
+        <select size=1>
+            <option>Science</option>
+            <option>Commerce</option>
+            <option>Arts</option>
+        </select>
+        <br><br>
+        <font size=5><b>Subject : </b></font>
+        <input type="checkbox"><b>Electronics</b> 
+        <input type="checkbox"><b>Mathematics</b>
+        <input type="checkbox"><b>Biology</b>
+        <input type="checkbox"><b>Zoology</b> 
+        <input type="checkbox"><b>Statistics</b>
+        <br><br>
+        <hr color="black" size=3>
+        <h1><i><u>Login Information:</u></i></h1>
+        <font size=5><b>User Name : </b></font> 
+        <input type="text" size=20>
+        <br><br>
+        <font size=5><b>Password : </b></font> 
+        <input type="password" size=20>
+        <br><br>
+        <center>
+            <input type="reset">
+            <input type="submit" value="Submit">
+        </center>  
+    </form>
+</body>
+</html>
